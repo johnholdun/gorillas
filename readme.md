@@ -8,7 +8,7 @@ This repository includes the code to
 1. Render individual frames from each turn on each of those cities with [PhantomJS][];
 1. And run them through [gifme][] to create fantastic Gorillas gifs.
 
-See [an example of gameplay][example] or watch the gorillas play on Twitter: [@LeftGorilla][] and [@RightGorilla][].
+See [an example of gameplay][example], [read more about this project][blog], or watch the gorillas play on Twitter: [@LeftGorilla][] and [@RightGorilla][].
 
 [GORILLAS.BAS]: http://en.wikipedia.org/wiki/GORILLAS.BAS
 [Derek Arnold]: http://twitter.com/derekarnold
@@ -16,5 +16,6 @@ See [an example of gameplay][example] or watch the gorillas play on Twitter: [@L
 [PhantomJS]: http://phantomjs.org
 [gifme]: https://github.com/holman/gifme
 [example]: http://johnholdun.com/gorillas
+[blog]: http://johnholdun.tumblr.com/post/97028610330
 [@LeftGorilla]: http://twitter.com/leftgorilla
 [@RightGorilla]: http://twitter.com/rightgorilla
