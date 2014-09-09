@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gorillas</title>
+		<script src="underscore.js"></script>
+		<script src="gorillas.js"></script>
+		<meta name="viewport" content="minimal-ui, width=640, user-scalable=no">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				background: rgb(0, 0, 173);
+			}
+
+			canvas, img {
+				display: block;
+				position: fixed;
+			}
+
+			p {
+				position: fixed;
+				left: 0;
+				right: 0;
+				text-align: center;
+				top: 50%;
+				line-height: 30px;
+				margin-top: -15px;
+				color: #fff;
+				font-family: "Courier Prime", monospace;
+				z-index: 5;
+			}
+
+			canvas {
+				z-index: 2;
+				left: 50%;
+				top: 50%;	
+				margin: -350px -640px;
+				background: #000;
+				width: 1280px;
+				height: 700px;
+				image-rendering: optimizeSpeed;
+				image-rendering: -moz-crisp-edges;
+				image-rendering: -webkit-optimize-contrast;
+				image-rendering: optimize-contrast;
+				-ms-interpolation-mode: nearest-neighbor;
+			}
+
+			canvas.present {
+				display: block;
+				z-index: 3;
+			}
+
+			canvas.buffering {
+				display: none;
+				z-index: 2;
+			}
+
+			img {
+				z-index: 1;
+				left: 0;
+				bottom: 120%;
+			}
+
+			p {
+				padding: 10px;
+				color: #fff;
+				font-family: "Courier Prime", monospace;
+				white-space: pre;
+			}
+
+			@media (max-width: 1279px) {
+				canvas {
+					width: 640px;
+					height: 350px;
+					margin: -175px -320px;					
+				}
+			}
+
+			@media (min-width: 1920px) {
+				canvas {
+					width: 1920px;
+					height: 1050px;
+					margin: -525px -960px;					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="stage-1" width="640" height="350"></canvas>
+		<canvas id="stage-2" width="640" height="350"></canvas>
+
+		<img src="cities/489278565079597056.png" id="sprite-city-1">
+		<img src="cities/490752113014616064.png" id="sprite-city-2">
+		<img src="cities/492710941843521536.png" id="sprite-city-3">
+		<img src="cities/493677672996679680.png" id="sprite-city-4">
+		<img src="cities/494537280217174016.png" id="sprite-city-5">
+		<img src="cities/495583338237669377.png" id="sprite-city-6">
+		<img src="cities/496683693486788608.png" id="sprite-city-7">
+
+		<img src="sprites/gorilla.png" id="sprite-gorilla">
+		<img src="sprites/gorilla-left.png" id="sprite-gorilla-left">
+		<img src="sprites/gorilla-right.png" id="sprite-gorilla-right">
+
+		<img src="sprites/banana-down.png" id="sprite-banana-down">
+		<img src="sprites/banana-left.png" id="sprite-banana-left">
+		<img src="sprites/banana-right.png" id="sprite-banana-right">
+		<img src="sprites/banana-up.png" id="sprite-banana-up">
+
+		<img src="sprites/sun.png" id="sprite-sun">
+		<img src="sprites/sun-shocked.png" id="sprite-sun-shocked">
+	</body1
+</html>
